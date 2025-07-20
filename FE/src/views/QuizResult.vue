@@ -160,7 +160,7 @@ export default {
       localStorage.removeItem('selectedQuestionCount')
       
       // 퀴즈 시작 페이지로 이동
-      this.$router.push('/start')
+      this.$router.push('/quiz')
     },
     
     goHome() {
